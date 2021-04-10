@@ -1,4 +1,7 @@
 # Monte Carlo simulation of two-dimensional Ising model
+
+Final project of the "Laboratory of Computational Physics mod. A" course at University of Padua during 2020/2021.
+
 ## Assignment and Description
 The objective is to study, by Monte Carlo simulations, Ising-like modes on the square lattice and look at the behaviour of observables such as the specific heat, magnetisation and magnetic susceptibility, as a function of the temperature ed in particular in proximity of the critical point.
 
