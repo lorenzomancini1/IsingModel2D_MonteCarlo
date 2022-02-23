@@ -13,6 +13,6 @@ The Ising model is simulated through the Glauber dynamics: a random spin is sele
 - finite-size scaling;
 - critical slowing down;
 
-Furthermore, it can be seen that, at the critical temperature, we have a very high auto-correlation time (this is indeed related with critical slowing down). Thus, we should increase the number of steps for sampling data, but this would've required a lot of computational time. In order to overcome this, we implemented the Wolff algorithm, where, at each step, a cluster of spins is selected and flipped with probability equal to 1. In this way, at the critical point, the system is slightly slower in thermalization but the auto-correlation time decreases dramatically.
+Furthermore, it can be seen that, at the critical temperature, we have a very high auto-correlation time (this is indeed related with critical slowing down). Thus, we should increase the number of steps for sampling data, but this would've required a lot of computational time. In order to overcome this, we implemented the Wolff algorithm, where, at each step, a cluster of spins is selected and flipped with probability equal to 1. In this way, at the critical point, the system is slightly slower in thermalization but the auto-correlation time decreases exponentially.
 
  
